@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+     --Very-dark-blue-main: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+figure{
+    width: 280px;
+}
+figure img{
+    width: 100%;
+}
+main{
+    background-color: var(--Very-dark-blue-card);
+    /* border: 2px solid red; */
+    padding: 18px;
+    width: 320px;
+    margin: 100px auto 20px auto;
+    
+
+
+}
+h2{
+    margin: 18px 0;
+}
+.xx-container{
+    margin: 18px 0;
+}
+.right{
+    float: right;
+    /* display: inline-block; */
+}
+.left{
+    display: inline-block;
+}
+.avatar{
+    width: 30px;
+}
+.man{
+    float: none;
+    margin: 10px 0;
+}
+.name{
+    /* line-height: 20px; */
+    color: var(--White);
+}
+body{
+    background-color: var(--Very-dark-blue-main);
+}
+hr{
+    background-color: var(--Very-dark-blue-line);
+    border-color: var(--Very-dark-blue-line);
+}
+#equi{
+    color: var(--White);
+}
+.lightc{
+    color: var(--Soft-blue);
+}
+.eth{
+    color: var(--Cyan);
+}
+
+
+
+
+
+
+
+
+
+
+/* Styling for footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
